@@ -114,11 +114,11 @@ def crop_numbers(image):
                     cv2.drawContours(mask, [ctn], -1, 0, -1)
             img = cv2.bitwise_and(img, img, mask=mask)
 
-            cv2.imwrite(f"crops/crop{i}{j}_raw.png", img)
+            #cv2.imwrite(f"crops/crop{i}{j}_raw.png", img)
 
             img = empty_images(img)
 
-            cv2.imwrite(f"crops/crop{i}{j}.png", img)
+            #cv2.imwrite(f"crops/crop{i}{j}.png", img)
 
             images.append(img)
 
@@ -229,7 +229,6 @@ def video():
             output[p1[1]:p1[1] + focus_drawn.shape[0], p1[0]:p1[0] + focus_drawn.shape[1]] = focus_drawn
             frames.append(focus)
             cv2.imshow("output", output)
-            print(len(frames))
 
             if len(frames) >= 30 and cv2.waitKey(0) & 0xFF == ord("s"):
                 crops_preds = get_crops(frames)
