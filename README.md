@@ -1,7 +1,7 @@
 # Sudoku Solver
 **Scan a sudoku** with your camera and **solve** it with the press of a buttom.
 
-![Gif with program in action](https://media.giphy.com/media/Nz51rywyLE4sZuSwfs/giphy.gif)
+![Gif with program in action](https://media.giphy.com/media/ULL310i8Ktvk1oTSYQ/giphy.gif)
 
 
 
