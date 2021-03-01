@@ -1,6 +1,10 @@
 # Sudoku Solver
 **Scan a sudoku** with your camera and **solve** it with the press of a buttom.
 
+![Gif with program in action](https://media.giphy.com/media/Nz51rywyLE4sZuSwfs/giphy.gif)
+
+
+
 ## Objectives
 Create a program which uses a camera and is able to recognize and solve a Sudoku.
 
@@ -9,7 +13,7 @@ Point your camera towards a sudoku. There will be a **red outline** indicating t
 **Press "S"** to go on with the current frame, or anything else to continue scanning. Then a **input promt** will be opened explaining what to do. If you want to exit the program, you
 can exit by pressing "Q".
 
-## Achievements
+## Accomplishments
 Recognizes **big squares** inside certain area and is able to crop the numbers individually. This detection uses exclusively OpenCV.
 
 Manages to predict the numbers **90%** of the time.
