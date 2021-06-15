@@ -1,7 +1,13 @@
-# Sudoku Solver
+# Sudoku Recognizer
 **Scan a sudoku** with your camera and **solve** it with the press of a buttom.
 
+Program in action:
+
 ![Gif with program in action](https://media.giphy.com/media/ULL310i8Ktvk1oTSYQ/giphy.gif)
+
+Output on console:
+
+<img atl="output from program" src="https://i.imgur.com/fMYgJ5U.png" width="25%" height="25%"> 
 
 
 
